@@ -1,0 +1,287 @@
+	
+@media handheld, screen and (min-width: 600px) and (max-width:1023px){
+
+#contenedor{
+	height:auto;
+	width:580px;
+	margin: 0px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+header{
+	height:260px;
+	}
+	
+	}
+	#marca{
+		height:182px;
+		float:none;
+		margin-left: auto;
+		margin-right:auto;
+	}
+	.banner {
+		height:auto;
+		width:100%;
+		}
+	
+	.navegacion{
+	height:auto;
+	width:100%;
+	margin:0px;
+	}
+	
+	.menu li{
+		display:inline-block;
+		position:relative;
+		margin-top: 20px;
+		
+	}
+	.menu li a{
+	display: block;
+	padding:10px 15px;
+	color: #d9d9d9;
+	font-family:'Bellota Text', cursive;	
+	}
+.menu li a:hover{
+	 background-color:#3f444d;
+		}
+.submenu{	
+position:absolute;
+background-color:#5c5b5b;
+width:100%;
+display:none;
+}	
+.submenu li a{
+width:120px;
+height:38px;
+margin-bottom:1px;
+display: block;
+padding:2px 15px;
+color:#d9d9d9;
+font-family:'Bellota Text', cursive;
+text-decoration:none;
+}	
+.menu li:hover .submenu{
+display: block;
+
+}
+
+	#contenido{
+	width:580px;
+	height:auto;
+	background-color:#f7f7f7;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:'Bellota Text', cursive;
+	text-align:justify;
+	float:left;
+	}
+	h1{
+	font-family: 'Cardo', serif;
+	}
+	#columna{
+	display:none;
+	}
+	
+footer{
+		width:580px;
+		height:60px;
+		background-color:#040800;
+		font-family: Tahoma,Verdana,"Segoe UI";
+		font-size: 0.7em;
+		color:#fff;
+		font-weight: lighter;
+		letter-spacing: 3px;
+		text-decoration:none;
+		text-align:center;
+		line-height: 5em;
+		clear:both;
+		border:none;
+		border-top-left-radius:0px;
+		border-top-right-radius:0px;
+		border-bottom-left-radius:0px;
+		border-bottom-right-radius:0px;
+		margin: 0px;
+		}
+	
+	
+	#contenedorbios{
+	width:960px;
+	height:autopx;
+	background-color: #fff;
+	margin-left:auto;
+	margin-right:auto;
+	}
+	#contenidobios{
+	width:640px;
+	height:autopx;
+	background-color:#f7f7f7;
+	margin-left:auto;
+	margin-right:auto;
+	padding:5px;
+	font-family:'Bellota Text', cursive;
+	text-align:justify;
+	float:left;
+	box-shadow: 7px -9px 36px #292929;
+	}
+	h1{
+	font-family: 'Cardo', serif;
+	text-shadow:5px 5px 25px #616061;
+	}
+	
+
+	#columnabios{
+	width:300px;
+	height:autopx;
+	background-color:#7b9460;
+	float:right;
+	}
+	}
+	
+	
+@media handheld, screen and (max-width:599px) {
+		body {
+	background-image:url(imagenes/triangulo-blanco.jpg);
+}
+#contenedor{
+	width:960px;
+	height:940px;
+	background-color: #fff;
+	margin-left:auto;
+	margin-right:auto;
+	}
+header{
+	width:960px;
+	height:350px;
+	
+	}
+	#marca{
+		width:960px;
+		height:280px;
+		float:left;
+	}
+	.navegacion{
+	width:960px;
+	background-color:#242424;
+	margin:30px auto;	
+	line-height: 30px;
+
+	}
+	.navegacion ul{
+		list-style: none;
+		margin:0;
+		padding:0;
+		
+	}
+	.menu li{
+		display:inline-block;
+		position:relative;
+		margin-top: 20px;
+	}
+	.menu li a{
+		display: block;
+		padding:10px 15px;
+		color: #d9d9d9;
+		font-family:'Bellota Text', cursive;
+		text-decoration:none;
+		
+	}
+.menu li a:hover{
+	 background-color:#3f444d;
+		}
+.submenu{	
+position:absolute;
+background-color:#5c5b5b;
+width:100%;
+display:none;
+}	
+.submenu li a{
+width:120px;
+height:38px;
+margin-bottom:1px;
+display: block;
+padding:2px 15px;
+color:#d9d9d9;
+font-family:'Bellota Text', cursive;
+text-decoration:none;
+}	
+.menu li:hover .submenu{
+display: block;
+
+}
+
+	#contenido{
+	width:640px;
+	height:auto;
+	background-color:#f7f7f7;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:'Bellota Text', cursive;
+	text-align:justify;
+	float:left;
+	}
+	h1{
+	font-family: 'Cardo', serif;
+	}
+	#columna{
+	width:300px;
+	height:auto;
+	background-color:#7b9460;
+	float:right;
+	}
+	
+footer{
+		width:930px;
+		height:110px;
+		background-color:#040800;
+		font-family: Tahoma,Verdana,"Segoe UI";
+		color:#fff;
+		font-weight: lighter;
+		letter-spacing: 3px;
+		text-decoration:none;
+		text-align:center;
+		line-height: 120px;
+		clear:both;
+		border:outset 15px #242424;
+		border-top-left-radius:5px;
+		border-top-right-radius:15px;
+		border-bottom-left-radius:18px;
+		border-bottom-right-radius:0px;
+		}
+	
+	
+	#contenedorbios{
+	width:960px;
+	height:autopx;
+	background-color: #fff;
+	margin-left:auto;
+	margin-right:auto;
+	}
+	#contenidobios{
+	width:640px;
+	height:autopx;
+	background-color:#f7f7f7;
+	margin-left:auto;
+	margin-right:auto;
+	padding:5px;
+	font-family:'Bellota Text', cursive;
+	text-align:justify;
+	float:left;
+	box-shadow: 7px -9px 36px #292929;
+	}
+	h1{
+	font-family: 'Cardo', serif;
+	text-shadow:5px 5px 25px #616061;
+	}
+	
+
+	#columnabios{
+	width:300px;
+	height:autopx;
+	background-color:#7b9460;
+	float:right;
+	}
+		
+	}
+	
+	

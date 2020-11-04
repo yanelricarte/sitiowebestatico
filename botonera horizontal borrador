@@ -1,0 +1,34 @@
+
+	#menu{
+	width:960px;
+	height:150px;
+	background-color: #fff;
+	float:left;
+	}
+	ul.botonera_horizontal{
+			margin:0;
+			padding:0;
+			list-style-type:none;	
+			float:right;
+	} 
+ 	ul.botonera_horizontal li a{
+		width:154.67px;
+		height:70px;
+		background-color:#d9d9d9;
+		margin-bottom:5px;
+		display:inline-block;
+		
+		font-family: Tahoma,Verdana,"Segoe UI";
+		color:#fff;
+		letter-spacing: 1px;
+		text-decoration:none;
+		text-align:center;
+		border:1px #000 solid ;
+		line-height: 77.335px;
+	 }	
+	 ul.botonera_horizontal li {
+	display: inline;
+	 }
+	 ul.botonera_horizontal li a:hover{
+	 background-color:#3f444d;
+	 }
